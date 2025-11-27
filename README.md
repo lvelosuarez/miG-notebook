@@ -1,6 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15881253.svg)](https://doi.org/10.5281/zenodo.15881253)
 
-# miG notebook
 
 <img src="visual_abstract.png" alt="Logo" width="400" align="left" style="margin-right: 15px; margin-bottom: 10px;" />
 
