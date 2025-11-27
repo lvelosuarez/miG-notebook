@@ -1,8 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15881253.svg)](https://doi.org/10.5281/zenodo.15881253)
 
-# miG notebook
 
-<img src="visual_abstract.png" alt="Logo" width="400" align="left" style="margin-right: 15px; margin-bottom: 10px;" />
+<img src="visual_abstract.png" alt="Logo" width="300" align="left" style="margin-right: 15px; margin-bottom: 10px;" />
 
 This repository contains the data and scripts necessary to reproduce all figures in the paper: *“Human whole-genome sequencing as a resource for salivary microbiome profiling.”* The study evaluates whether standard host-DNA extraction protocols can reliably support salivary microbiome profiling when paired with deep shotgun sequencing.
 
@@ -43,16 +42,19 @@ The salivary microbiome is a key indicator of health and immunity. Although sali
 
 ## 📁 Repository structure
 
-- `data/`: Sample metadata and taxonomy files (taxon tables)  
+- `data/`: taxonomy files (taxon tables output of sylph and meteor)  
 - `figures/`: Exported figures from the manuscript  
 - `notebooks/`: Jupyter notebooks for exploratory analyses and used to generate each figure (with the R kernel)
+- `scripts/`: helper functions to carry out analysis
 
 Each of the three figures/analyses presented in the paper corresponds to a different Jupyter notebook in the `notebooks/` repository:
 
-1. `alpha-beta.ipynb`
+1. `Figure1_taxon_detection.ipynb`
 
-2. `FAVA.ipynb`
+2. `Figure2_jaccard_pcoa.ipynb`
 
-3. `KS-CM.ipynb`
+3. `Figure3_FAVA.ipynb`
+
+4. `Figure4.ipynb` 
 
 
