@@ -3,7 +3,7 @@
 
 <img src="visual_abstract.png" alt="Logo" width="300" align="left" style="margin-right: 15px; margin-bottom: 10px;" />
 
-This repository contains the data and scripts necessary to reproduce all figures in the paper: *“Human whole-genome sequencing as a resource for salivary microbiome profiling”* The study evaluates whether standard host-DNA extraction protocols can reliably support salivary microbiome profiling when paired with deep shotgun sequencing.
+This repository contains the data and scripts necessary to reproduce all figures in the paper: *“Human whole-genome sequencing as a resource for salivary microbiome profiling”*. The study evaluates whether standard host-DNA extraction protocols can reliably support salivary microbiome profiling when paired with deep shotgun sequencing.
 
 This analysis compares two saliva sample sets:
 
