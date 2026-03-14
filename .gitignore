@@ -9,7 +9,7 @@ prep/
 # Context files
 CLAUDE.md
 context.md
-
+virtual_documents/
 # System specific files
 ## Linux
 *~
