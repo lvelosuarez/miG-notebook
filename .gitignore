@@ -10,8 +10,10 @@ __pycache__/
 # Misc temporary files
 *.bak
 
-# System specific files
+# Context files
 
+# System specific files
+context.md
 ## Linux
 *~
 .Trash-*
