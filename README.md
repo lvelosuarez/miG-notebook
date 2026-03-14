@@ -3,7 +3,7 @@
 
 <img src="visual_abstract.png" alt="Logo" width="300" align="left" style="margin-right: 15px; margin-bottom: 10px;" />
 
-This repository contains the data and scripts necessary to reproduce all figures in the paper: *“Human whole-genome sequencing as a resource for salivary microbiome profiling”*. The study evaluates whether standard host-DNA extraction protocols can reliably support salivary microbiome profiling when paired with deep shotgun sequencing.
+This repository contains the data and scripts necessary to reproduce all figures in the paper: *”Sequencing depth overcomes extraction bias: repurposing human WGS data for salivary microbiome profiling”*. The study evaluates whether deep sequencing can overcome extraction bias in salivary microbiome profiling using host-optimized WGS datasets originally generated for human genomics.
 
 This analysis compares two saliva sample sets:
 
@@ -30,10 +30,10 @@ The salivary microbiome is a key indicator of health and immunity. Although sali
 <details>
 <summary><strong> Key Findings</strong></summary>
 
-- Deep sequencing compensates for the lack of microbial-specific extraction.
-- Higher microbial richness and reproducibility in miG samples.
-- Species-level resolution is maintained even without lysis-focused protocols.
-- Community structures converge between protocols after rarefaction.
+- Sequencing depth — not extraction chemistry — is the primary driver of community stability.
+- Rarefaction to 10⁶ reads eliminates most compositional differences (meteor: PERMANOVA R²=0.045, p=0.008; BETADISPER p=0.589).
+- Only ~2% of taxa (12/592 MSPs) show extraction-related differences post-rarefaction.
+- **Classifiers behave fundamentally differently:** meteor converges post-rarefaction; sylph retains depth-dependent asymmetries even after rarefaction.
 - miG shows lower variability at fine taxonomic levels (per FAVA).
 
 </details>
@@ -47,7 +47,7 @@ The salivary microbiome is a key indicator of health and immunity. Although sali
 - `notebooks/`: Jupyter notebooks for exploratory analyses and used to generate each figure (with the R kernel)
 - `scripts/`: helper functions to carry out analysis
 
-Each of the three figures/analyses presented in the paper corresponds to a different Jupyter notebook in the `notebooks/` repository:
+Each of the four figures/analyses presented in the paper corresponds to a different Jupyter notebook in the `notebooks/` repository:
 
 1. `Figure1_taxon_detection.ipynb`
 
