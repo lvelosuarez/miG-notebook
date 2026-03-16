@@ -49,12 +49,12 @@ The salivary microbiome is a key indicator of health and immunity. Although sali
 
 Each of the four figures/analyses presented in the paper corresponds to a different Jupyter notebook in the `notebooks/` repository:
 
-1. `Figure1_taxon_detection.ipynb`
+1. `Figure2_taxon_detection.ipynb`
 
-2. `Figure2_jaccard_pcoa.ipynb`
+2. `Figure3_jaccard_pcoa.ipynb`
 
-3. `Figure3_FAVA.ipynb`
+3. `Figure4_FAVA.ipynb`
 
-4. `Figure4.ipynb` 
+4. `Figure5.ipynb` 
 
 
