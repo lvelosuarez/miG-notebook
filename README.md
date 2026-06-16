@@ -1,6 +1,6 @@
 
 [![DOI](https://zenodo-rdm.web.cern.ch/badge/DOI/10.5281/zenodo.15881253.svg)](https://doi.org/10.5281/zenodo.15881253)
-
+[![bioRxiv preprint](https://img.shields.io/badge/bioRxiv-2026.01.01-orange.svg)]([https://www.biorxiv.org/content/10.1101/XXXXXX](https://www.biorxiv.org/content/10.64898/2026.03.27.714786v1))
 
 <img src="visual_abstract.png" alt="Logo" width="300" align="left" style="margin-right: 15px; margin-bottom: 10px;" />
 
