@@ -4,7 +4,7 @@
 
 <img src="visual_abstract.png" alt="Logo" width="300" align="left" style="margin-right: 15px; margin-bottom: 10px;" />
 
-This repository contains the data and scripts necessary to reproduce all figures in the paper: *” Sequencing depth overcomes extraction bias: repurposing human WGS data for salivary microbiome profiling”*. The study evaluates whether deep sequencing can overcome extraction bias in salivary microbiome profiling using host-optimized WGS datasets originally generated for human genomics.
+This repository contains the data and scripts necessary to reproduce all figures in the paper: *”A methodological assessment of the reliability of salivary microbiome characterization  derived from human WGS data”*. The study evaluates whether deep sequencing can overcome extraction bias in salivary microbiome profiling using host-optimized WGS datasets originally generated for human genomics.
 
 This analysis compares two saliva sample sets:
 
